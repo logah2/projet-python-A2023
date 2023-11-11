@@ -12,8 +12,7 @@ Le programme fonction en appelant une commande dans le terminal. Cette commande 
 "python3 projet1.py goog" ou celle-ci avec plus d'info donnée "python3 projet1.py -d=2020-06-23 -f=2021-06-23 -v=volume aapl"
 
 Le symbole d'action est obligatoire pour faire fonctionner le programme, mais il peux y en avoir plusieurs pour aller chercher les infos de plusieurs compagnies en même temps.
-Les acronymes des compagnies suivantes sont acceptés:
-
+-Les acronymes des compagnies suivantes sont acceptés:
   -A – Agilent Technologies
   -AAPL – Apple
   -C – Citigroup
@@ -30,7 +29,6 @@ Les acronymes des compagnies suivantes sont acceptés:
   -TXN – Texas Instruments
   -XOM - ExxonMobil
   -WMT – Walmart
-  -
 
   D'autres informations optionnelles peuvent aussi être entré:
   -Une date de début (date la plus ancienne) qui prend la forme "%Y-%m-%d" par exemple "2020-06-23" / Si aucune n'est donné seul la date de fin sera pris en compte
