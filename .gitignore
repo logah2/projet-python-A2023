@@ -1,0 +1,8 @@
+# Exclure absolument tout les fichiers/dossiers
+/**/*
+
+# Parmis les fichiers/dossiers exclus, autoriser les suivants:
+!/.gitignore
+!/README.md
+!/phase1.py
+!/projet1.py
