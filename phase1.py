@@ -43,5 +43,5 @@ def produire_historique(symbole, date_debut, date_fin, info_demande):
     for keys in reponse["historique"]:
         historique.append((datetime.strptime(keys, "%Y-%m-%d").date() ,
                             reponse["historique"][keys][info_demande]))
-    print(f'titre={symbole}: valeur={info_demande}, début={datetime.strptime(date_debut, "%Y-%m-%d").date()}, fin={datetime.strptime(date_fin, "%Y-%m-%d").date()}')
-    print(historique)
+
+    return historique
